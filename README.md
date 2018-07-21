@@ -3,11 +3,12 @@ A NodeJS App that will give you the location and the weather report of the place
 
 In order for you to run the code, you'll have to install NodeJS in your device.
 After installing NodeJS,
+
 You'll need the following packages to run the code:
-1.yargs - npm i yargs 
-2.request - npm i request 
-3.util - npm i util 
-4.moment - npm i moment 
+1. yargs - npm i yargs 
+2. request - npm i request 
+3. util - npm i util 
+4. moment - npm i moment 
 
 After installing these libraries, Do as follows:
 
