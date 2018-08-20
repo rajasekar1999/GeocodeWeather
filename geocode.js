@@ -47,6 +47,7 @@ req({
                                     console.log("\n\t\tLocation: ",lat.toFixed(2), "°N ,",lng.toFixed(2), "°E");
                                     console.log("\n\t\tTemperature : ",temp.toFixed(2),"°C, ",bod.currently.temperature, "°F\n\n\n\n\n\n\n");
                                     })
+                    console.log("\n\nThank you for using this application..!");
         }
     }   
    )
