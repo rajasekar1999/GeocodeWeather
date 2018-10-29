@@ -4,7 +4,7 @@ var util = require('util');
 var moment = require('moment');
 
 console.log("\u001b[2J\u001b[0;0H");
-console.log("\n\n\n\n\t\t\t\t\tWelcome to the GeoCode Weather Station...\n");
+console.log("\n\n\n\t\t\t\tWelcome to the GeoCode Weather Station...\n\n\n");
 console.log("\n\t\tTime: ",moment().format("HH:mm"));
 var argv = yargs
             .options({
@@ -45,9 +45,9 @@ req({
                 (err, res, bod) => {console.log("\n\t\tSummary: ",bod.currently.summary); 
                                     var temp = (bod.currently.temperature-32)*(5/9);
                                     console.log("\n\t\tLocation: ",lat.toFixed(2), "°N ,",lng.toFixed(2), "°E");
-                                    console.log("\n\t\tTemperature : ",temp.toFixed(2),"°C, ",bod.currently.temperature, "°F\n\n\n\n\n\n\n");
+                                    console.log("\n\t\tTemperature : ",temp.toFixed(2),"°C, ",bod.currently.temperature, "°F\n\n\n\n\n");
                                     })
-                    console.log("\n\nThank you for using this application..!");
+                    console.log("\n\nThank you for using this application..!\n\n");
         }
     }   
    )
