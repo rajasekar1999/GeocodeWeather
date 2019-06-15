@@ -2,6 +2,7 @@
 <html>
 
 	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -24,12 +25,18 @@
 				<font size="4" face="verdana">Enter the name of the place :</font>  
 			</div>
 			<div style="float: right; padding-right: 460px;">
-				<input type="text" name="Eg:Madurai, TamilNadu, India, etc" class="form-control" style="width: 300px;">
+				<input type="text" name="Eg:Madurai, TamilNadu, India, etc" class="form-control" id="address" style="width: 300px;">
 			</div>
 		</div>
 		<div style="padding-top: 50px; padding-left: 650px;">
-			<button type="button" class="btn btn-primary btn-lg">Retrieve Weather Report</button>
+			<button type="button" class="btn btn-primary btn-lg" id="button">Retrieve Weather Report</button>
 		</div>
+		<center><font size="4" face="verdana">
+		<div id="result" style="padding-top:20px">
+			Change This
+		</div>
+		</center></font>
+		<script src="bundle.js">
+		</script>
 	</body>
-
 </html>
